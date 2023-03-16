@@ -1,0 +1,40 @@
+.dack.accordion-button{
+    background: #18181a!important;
+
+}
+
+.dack.accordion-button::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:not(.collapsed){
+    background: #f1300e !important;
+    color: rgb(255, 255, 255);
+
+}
+.etiqueta{
+    background: rgb(49, 48, 48) !important;
+    color:rgb(252, 252, 252)!important;
+}
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+.editar{
+    background: rgb(2, 39, 54) !important;
+    color:rgb(252, 252, 252)!important;
+}
+.eliminar{
+    background: rgb(163,8,20) !important;
+    color:rgb(252, 252, 252)!important;
+}
+
+@media (max-width: 991px) {
+    .tab-content>.tab-pane {
+      display: block;
+      opacity: 1;
+    }
+  }
